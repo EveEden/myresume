@@ -8,6 +8,11 @@ const NavBar = () => {
         <Layout>
           <Header className="header-color" title={<Link style={{ textDecoration: 'none', color: 'white' }} to='/'>home</Link>}>
               <Navigation>
+                <div className="social-links">
+                  <Link to="/mylinkedin" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true" /></Link>
+                  <Link to="/mygithub" target="_blank"><i className="fa fa-github-square" aria-hidden="true" /></Link>
+                  <Link to="/myfreecodecamp" target="_blank"><i className="fa fa-free-code-camp" aria-hidden="true" /></Link>
+                </div>
                   <Link to="/resume">Resume</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/mystyle">My Style</Link>
