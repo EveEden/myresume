@@ -17,20 +17,19 @@ export default class LandingPage extends React.Component {
           <p>HTML/CSS | JavaScript | NodeJS | Express | React | Redux | Knex/SQLite | Bulma</p>
           <div className="social-links">
           {/* Linkedin */}
-            <a href="https://www.linkedin.com/in/eve-henare-80a9a1157/" rel="noopener noreferrer" target="_blank">
+            {/* <a href="https://www.linkedin.com/in/eve-henare-80a9a1157/" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-linkedin-square" aria-hidden="true" />
-            </a>
+            </a> */}
           {/* Github */}
-          <a href="https://github.com/EveEden" rel="noopener noreferrer" target="_blank">
+          {/* <a href="https://github.com/EveEden" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-github-square" aria-hidden="true"/>
-            </a>
+            </a> */}
           {/* Free Code Camp */}
-          <a href="https://www.freecodecamp.org/eve_eden" rel="noopener noreferrer" target="_blank">
+          {/* <a href="https://www.freecodecamp.org/eve_eden" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-free-code-camp" aria-hidden="true"/>
-            </a>  
-            
+            </a>   */}
           </div>
-          <h5>This website is under construction - external links currently not working</h5>
+          <h5>This website is under construction - external links currently not working, please use the ones at the top of the page</h5>
         </div>
         </Cell>
         </Grid>
